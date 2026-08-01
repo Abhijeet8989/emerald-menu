@@ -1,0 +1,97 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8f3ea;
+color:#1d3b32;
+}
+
+.hero{
+background:linear-gradient(135deg,#0b5d4b,#0f7a60);
+padding:45px 20px;
+text-align:center;
+color:white;
+}
+
+.logo{
+width:90px;
+height:90px;
+border-radius:50%;
+background:white;
+padding:8px;
+margin-bottom:15px;
+}
+
+.hero h1{
+font-family:'Playfair Display',serif;
+font-size:38px;
+letter-spacing:2px;
+color:#d9b65d;
+}
+
+.hero h3{
+margin-top:8px;
+font-size:18px;
+font-weight:400;
+}
+
+.tagline{
+margin-top:12px;
+font-style:italic;
+font-size:15px;
+}
+
+.contact{
+padding:20px;
+text-align:center;
+line-height:28px;
+background:white;
+}
+
+.search{
+padding:20px;
+}
+
+.search input{
+width:100%;
+padding:14px;
+border-radius:10px;
+border:2px solid #0b5d4b;
+font-size:16px;
+outline:none;
+}
+
+.categories{
+padding:20px;
+display:grid;
+gap:15px;
+}
+
+.card{
+background:white;
+padding:18px;
+border-left:6px solid #d9b65d;
+border-radius:12px;
+font-size:18px;
+font-weight:600;
+box-shadow:0 5px 12px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-4px);
+}
+
+footer{
+background:#0b5d4b;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:25px;
+font-size:15px;
+line-height:28px;
+}
