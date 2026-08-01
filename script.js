@@ -1,31 +1,9 @@
-const search = document.querySelector(".search input");
-const cards = document.querySelectorAll(".card");
+document.addEventListener("DOMContentLoaded", function () {
 
-search.addEventListener("keyup", function () {
+    const button = document.querySelector(".menuBtn");
 
-let value = search.value.toLowerCase();
-
-cards.forEach(card => {
-
-let text = card.innerText.toLowerCase();
-
-if(text.includes(value)){
-card.style.display="block";
-}
-else{
-card.style.display="none";
-}
-
-});
-
-});
-
-cards.forEach(card=>{
-
-card.addEventListener("click",()=>{
-
-alert(card.innerText+"\n\nMenu items will open here in the next update.");
-
-});
+    button.addEventListener("click", function () {
+        console.log("Opening Menu...");
+    });
 
 });
